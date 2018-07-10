@@ -26,11 +26,11 @@ prtbrown() {
       wget "$TDCLI" -O TG
       chmod +x TG
       prtgrn "
- ➡[ @iiiiZ ] 
+ ➡[ ماثيو┇(مٰ̲حمد قيـٰཻـس)𖤍 ] 
 "
       sudo apt-get -y update && sudo apt-get -y upgrade 
       prtgrn "
- ➡[ @iiiiZ ] 
+ ➡[ ماثيو┇(مٰ̲حمد قيـٰཻـس)𖤍 ] 
 "
       sudo apt-get --force-yes install git wget screen tmux libconfig9 libevent-dev libjansson4 libstdc++6 lua-socket lua5.2 liblua5.2 make unzip redis-server lua-sec libnotify-dev software-properties-common g++
       sudo apt-get -y update && sudo apt-get -y upgrade
