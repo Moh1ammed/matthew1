@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>أنشاء ويب هوك</title>  
+  <link href="assets/style.min.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="setwebhook, bot, telegram, webhook, webhook without ssl, webhook without https" />
+  <meta name="description" content="Set Webhook for Telegram bot">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <h1>انشاء ويب هوك لربط التوكن بالسيرفر</h1>
+  <h3>Support insecure http servers</h3>
+  <form action="javascript:void(0);" id="setwebhook">
+    <input type="text" id="token" placeholder="Bot Token (We don't collect your token)" autocomplete="off" pattern=".{3,}:.{10,}" required>
+    <input type="url" id="url" placeholder="Url (Leave empty to delete webhook integration)"  autocomplete="off" disabled pattern="^https?:\/\/(.*)\..{2,}">
+    <input type="submit" value="أنشاء" id="submit" disabled>
+  </form>
+  <div id="result"></div>
+  <footer>telegram <a href="https://telegram.me/verxbot">Ch_Dev</a> | <a href="https://telegram.me/blcon">σмєя αℓѕαяαу 🎧™</a></footer>
+  <script type="text/javascript" src="assets/main.min.js"></script>
+</html>
