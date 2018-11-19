@@ -9468,7 +9468,7 @@ if not is_KP(msg) then
 send(msg.chat_id_, msg.id_, 1, '💲┊ للمطور الاساسي فقــــــــط', 1, 'md')
 else
 os.execute('rm -rf matthew1.lua') 
-os.execute('wget https://raw.githubusercontent.com/alqaser/matthew1/master/matthew1.lua') 
+os.execute('wget https://github.com/Moh1ammed/matthew1/blob/master/matthew1.lua') 
 send(msg.chat_id_, msg.id_, 1, "💬┊ بواسطه » "..tmmatthew1(msg).."\n🎟┊ تم تحديث السورس \n ✓ ", 1, 'md')
 dofile('matthew1.lua')  
 io.popen("rm -rf ~/.telegram-cli/data/audio/*") 
