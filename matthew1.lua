@@ -8043,7 +8043,7 @@ local text =  [[
 
 `killall screen && cd matthew1 && screen ./matthew1`
 
-💬┊ *مطور السورس *≈ [@rr20r](t.me/rr20r)
+💬┊ *مطور السورس *≈ [@iiiiZ](t.me/rr20r)
 💲┊ *قناٌة السوٰرس *≈ [@BoTs0](T.ME/BoTs0)
 
 ‏
